@@ -44,7 +44,9 @@ Este comando iniciará os contêineres do produtor, consumidor e Kafka.
 
 ### 1. Produtor:
 
-O produtor expõe um endpoint REST para receber requisições. Envie requisições POST contendo dados em formato JSON para http://localhost:8080/produce
+O produtor expõe um endpoint REST para receber requisições. Envie requisições POST contendo dados em formato JSON para:
+
+    http://localhost:8080/produce
 
 #### Exemplo de requisição:
   
@@ -67,7 +69,7 @@ O consumidor está constantemente ouvindo as mensagens enviadas para o Kafka. El
 
 ## 6. Encerramento do Sistema
 
-Para encerrar o sistema, pressione Ctrl + C no terminal onde o Docker Compose está em execução.
+Para encerrar o sistema, pressione `Ctrl + C` no terminal onde o Docker Compose está em execução.
 
 ## 7. Testes
 
