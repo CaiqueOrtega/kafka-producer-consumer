@@ -27,7 +27,7 @@ cd nome_do_diretorio_do_projeto
 
 ### Docker Compose
 
-O sistema utiliza Docker Compose para gerenciar os contêineres. O arquivo docker-compose.yml já está configurado para iniciar os serviços necessários. Não são necessárias modificações adicionais.
+O sistema utiliza Docker Compose para gerenciar os contêineres. O arquivo `docker-compose.yml` já está configurado para iniciar os serviços necessários. Não são necessárias modificações adicionais.
 
 ## 4. Operação
 
