@@ -9,7 +9,7 @@ Este documento descreve a implementação de um sistema de fila utilizando Apach
 #### Pré-requisitos:
 - **Docker**: Certifique-se de ter o Docker instalado em seu sistema. Você pode baixá-lo e instalá-lo a partir do site oficial do Docker.
 
-## Passos de Instalação
+## 2. Passos de Instalação
 
   #### 1. Clone o repositório do projeto do GitHub:
 
@@ -23,13 +23,13 @@ git clone <link_do_repositorio>
 cd nome_do_diretorio_do_projeto
 ```
 
-## 2. Configuração
+## 3. Configuração
 
 ### Docker Compose
 
 O sistema utiliza Docker Compose para gerenciar os contêineres. O arquivo docker-compose.yml já está configurado para iniciar os serviços necessários. Não são necessárias modificações adicionais.
 
-## 3. Operação
+## 4. Operação
 
 ### Inicialização do Sistema
 
@@ -40,7 +40,7 @@ docker-compose up
 ```
 Este comando iniciará os contêineres do produtor, consumidor e Kafka.
 
-## Uso do Sistema
+## 5. Uso do Sistema
 
 ### 1. Produtor:
 
@@ -65,14 +65,14 @@ O produtor expõe um endpoint REST para receber requisições. Envie requisiçõ
 
 O consumidor está constantemente ouvindo as mensagens enviadas para o Kafka. Ele irá processar automaticamente as mensagens recebidas.
 
-## Encerramento do Sistema
+## 6. Encerramento do Sistema
 
 Para encerrar o sistema, pressione Ctrl + C no terminal onde o Docker Compose está em execução.
 
-## Testes
+## 7. Testes
 
 Foram realizados testes para verificar a funcionalidade completa do sistema. Os testes incluem envio de requisições para o produtor e verificação do processamento das mensagens pelo consumidor.
 
-## Conclusão
+## 8. Conclusão
 
 Esta documentação forneceu instruções detalhadas sobre como instalar, configurar e operar o sistema de fila desenvolvido com Apache Kafka e Docker. Siga os passos fornecidos para começar a utilizar o sistema em seu ambiente local.
